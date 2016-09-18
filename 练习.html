@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <script type="text/javascript">
+
+        function cal(){
+        var input=document.getElementById("ss");
+        var ss=input.value;
+        try{
+            var result=eval(ss);
+            input.value=result;
+        }catch(e){
+            input.value="Error";
+        }
+    }
+
+        </script>
+    </head>
+    <input type="text" id="ss" />
+    <input type="button"value="="
+       onclick="cal();" />
+    </body>
+</html>

@@ -1,0 +1,15 @@
+/* 
+* @Author: Marte
+* @Date:   2016-09-07 20:52:46
+* @Last Modified by:   Marte
+* @Last Modified time: 2016-09-14 17:10:07
+*/
+#ul1{
+    width:300px;
+    height:auto;
+    border:5px solid #eee;
+}
+li{
+    list-style-image:url(img/love1.png);
+    font-size:13px;
+}

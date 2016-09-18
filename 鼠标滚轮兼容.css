@@ -1,0 +1,20 @@
+/* 
+* @Author: Marte
+* @Date:   2016-09-07 20:52:46
+* @Last Modified by:   Marte
+* @Last Modified time: 2016-09-18 15:59:27
+*/
+h2{
+    width:300px;
+    font-size:16px;
+    font-weight:bold;
+    background-color:red;
+    color:#fff;
+    text-align:center;
+    border:1px solid #fff;
+    border-radius:5px;
+}
+img{
+    width:150px;
+    height:400px;
+}

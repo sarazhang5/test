@@ -1,0 +1,26 @@
+/* 
+* @Author: Marte
+* @Date:   2016-09-07 20:52:46
+* @Last Modified by:   Marte
+* @Last Modified time: 2016-09-09 10:31:50
+*/
+#div1{
+    width:200px;
+    height:30px;
+    line-height:30px;
+    text-align:center;
+    background-color:red;
+    margin:0 auto;
+    font-size:14px;
+    color:#fff;
+    font-weight:bold;
+}
+#div2{
+    width:150px;
+    height:40px;
+    background-color:#ccc;
+    margin:5px auto;
+    display:none;
+    text-align:center;
+    font-size:14px;
+}

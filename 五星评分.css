@@ -1,0 +1,30 @@
+/* 
+* @Author: Marte
+* @Date:   2016-09-07 20:52:46
+* @Last Modified by:   Marte
+* @Last Modified time: 2016-09-14 10:40:40
+*/
+.star{
+    
+}
+ul{
+    list-style:none;
+}
+li{
+    background:url(img/12.png) no-repeat ;
+    width:100px;
+    height:100px;
+    display:inline-block;
+    position:relative;
+}
+.active{
+    background:url(img/y.png) no-repeat;
+}
+p{
+    width:470px;
+    padding:10px;
+    background-color:#ccc;
+    display:none;
+    text-align:center;
+    margin-left:50px;
+}

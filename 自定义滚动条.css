@@ -1,0 +1,36 @@
+/* 
+* @Author: Marte
+* @Date:   2016-09-07 20:52:46
+* @Last Modified by:   Marte
+* @Last Modified time: 2016-09-18 13:11:33
+*/
+
+#parent{
+    width:20px;
+    height:210px;
+    background-color:#ccc;
+    margin:0 auto;
+    padding:0;
+    position: relative;
+}
+#div1{
+    position: absolute;
+    width:20px;
+    height:20px;
+    background-color:red;
+}
+#div2{
+    width:200px;
+    height:200px;
+    background-color:#ffa;
+    top:10px;
+    margin-left:550px;
+    position: absolute;
+    border:1px solid #ccc;
+    padding:5px;
+    overflow:hidden;
+    font-size:14px;
+}
+#div3{
+    position: absolute;
+}

@@ -1,0 +1,23 @@
+/* 
+* @Author: Marte
+* @Date:   2016-09-07 20:52:46
+* @Last Modified by:   Marte
+* @Last Modified time: 2016-09-17 13:55:15
+*/
+#menu,li{
+    margin:5px;
+    padding:5px;
+}
+#menu{
+    list-style:none;
+    position: absolute;
+    display:none;
+}
+#menu li{
+   width:80px;
+   background-color:#eec;
+   border:2px solid #aaa;
+   text-align:center;
+   font-size:12px;
+}
+

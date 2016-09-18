@@ -1,0 +1,64 @@
+/* 
+* @Author: Marte
+* @Date:   2016-09-07 20:52:46
+* @Last Modified by:   Marte
+* @Last Modified time: 2016-09-09 23:15:42
+*/
+#scroll{
+    width:300px;
+    height:840px;
+    margin:0 auto;
+    border:5px solid green;
+    position: relative;
+    border-radius:3px;
+    background-color:#eee;
+    overflow:hidden;
+}
+ul{
+    margin:0;
+    padding:0 40px;
+    position:absolute;
+}
+img{
+    width:200px;
+    height:400px;
+}
+li{
+    list-style:none;
+    width:200px;
+    height:400px;
+    padding:10px;
+    padding-top:0;
+}
+
+#btn{
+    width:300px;
+    margin:0 auto;
+}
+#up{
+    margin-left:120px;
+    background-color:green;
+    padding:10px;
+}
+#down{
+    top:900px;
+    margin-left:-30px;
+    position:absolute;
+    background-color:green;
+    padding:10px;
+}
+.active{
+    border-radius:10px;
+}
+#up a{
+    font-size:14px;
+    text-decoration:none;
+    color:#fff;
+    font-weight:bold;
+}
+#down a{
+    font-size:14px;
+    text-decoration:none;
+    color:#fff;
+    font-weight:bold;
+}
