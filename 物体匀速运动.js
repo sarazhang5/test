@@ -2,10 +2,8 @@
 * @Author: Marte
 * @Date:   2016-09-07 20:55:50
 * @Last Modified by:   Marte
-* @Last Modified time: 2016-09-19 14:46:33
+* @Last Modified time: 2016-09-19 15:35:05
 */
-//留言
-//ie8不能运行，火狐浏览器向下有问题，谷歌浏览器正常
 window.onload=function(){
 var oBtn=document.getElementById('button');
 var oImg=document.getElementById('image');
