@@ -1,0 +1,12 @@
+#div1 div,#div2 div{
+    border:1px solid #ccc;
+    width:100px;
+    height:100px;
+    display:none;
+}
+.active{
+    background:red;
+}
+#div1 .show,#div2 .show{
+    display:block;
+}
