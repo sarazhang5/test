@@ -2,9 +2,28 @@
 * @Author: Marte
 * @Date:   2016-09-07 20:55:50
 * @Last Modified by:   Marte
-* @Last Modified time: 2016-09-19 21:19:24
+* @Last Modified time: 2016-09-21 21:45:45
 */
-window.onload=function(){
-   
+window.onscroll=function(){
+   var oDiv=document.getElementById('div1');
+   var scrollTop=document.documentElement.scrollTop||document.body.scrollTop;
+      t=scrollTop+(document.documentElement.clientHeight-oDiv.offsetHeight)/2;
+      starMove(parseInt(t));
 };
-//因为把var timer=null放在startMove里面导致div抖动，放在外面就好了。
+var timer=null;
+
+function starMove(iTarget){
+  var oDiv=document.getElementById('div1');
+  var iSpeed=0;
+   clearInterval(timer);
+   timer=setInterval(function(){
+    iSpeed=(iTarget-oDiv.offsetTop)/8;
+    iSpeed=iSpeed>0?Math.ceil(iSpeed):Math.floor(iSpeed);
+    if(oDiv.offsetTop==iTarget){
+      clearInterval(timer);
+    }else{
+
+        oDiv.style.top=oDiv.offsetTop+iSpeed+'px';
+    }
+   },20);
+}
