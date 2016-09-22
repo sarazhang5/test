@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <script type="text/javascript">
 
-        function cal(){
+        /*function cal(){
         var input=document.getElementById("ss");
         var ss=input.value;
         try{
@@ -13,12 +13,14 @@
         }catch(e){
             input.value="Error";
         }
-    }
-
+    }*/
+      window.onload=function(){
+        oDiv=document.getElementsByClassName('div1')[0];
+        alert(oDiv);
+      }
         </script>
     </head>
-    <input type="text" id="ss" />
-    <input type="button"value="="
-       onclick="cal();" />
-    </body>
+   <body>
+       <div class="div1">我爱你</div>
+   </body>
 </html>
