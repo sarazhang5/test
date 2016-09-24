@@ -1,0 +1,19 @@
+/* 
+* @Author: Marte
+* @Date:   2016-09-07 20:52:46
+* @Last Modified by:   Marte
+* @Last Modified time: 2016-09-24 13:08:05
+*/
+#div1{
+    width:100px;
+    height:100px;
+    background-color:red;
+    position: absolute;
+}
+#div2{
+    width:100px;
+    height:100px;
+    background-color:yellow;
+    position: absolute;
+    left:100px;
+}
