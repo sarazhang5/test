@@ -1,0 +1,114 @@
+/* 
+* @Author: Marte
+* @Date:   2016-09-07 20:52:46
+* @Last Modified by:   Marte
+* @Last Modified time: 2016-09-25 14:44:25
+*/
+div,input,ul,li,h2{
+    margin:0;
+    padding:0;
+}
+ul{
+    text-align:center;
+    margin-top:5px;
+}
+li{
+    list-style:none;
+    display:inline-block;
+}
+h2{
+    font-weight:normal;
+    font-size:14px;
+}
+#mask{
+    position: absolute;
+    left:0;
+    top:0;
+    background-color:#ccc;
+    z-index:10;
+    opacity:0.7;
+    filter: alpha(opacity=70);
+}
+#btn{
+    width:182px;
+    height:30px;
+    border:0;
+    background-color:#333;
+    color:#fff;
+    font-weight:bold;
+    cursor:pointer;
+}
+#all{
+    width:180px;
+    height:180px;
+    border:1px solid #aaa;
+    position: relative;
+}
+#div1{
+    width:100px;
+    height:100px;
+    margin:25px;
+    background-color:yellow;
+    border:1px solid #ccc;
+}
+#set{
+    position: absolute;
+    left:180px;
+    top:0;
+    width:180px;
+    height:180px;
+    background-color:#eeefff;
+    border:1px solid #aaa;
+    border-radius:5px;
+    z-index:20;
+    display:none;
+}
+h2{
+    color:#333;
+    font-weight:bold;
+    letter-spacing:5px;
+}
+.color li,.divwidth li,.divheight li{
+    padding:2px 10px;
+    border-radius:4px;
+    font-size:14px;
+    font-weight:bold;
+    color:#fff;
+    font-family:'Arial';
+    cursor:pointer;
+}
+.color .blue{
+    background-color:blue;
+}
+.color .cred{
+    background-color:red;
+}
+.color .corange{
+    background-color:orange;
+}
+.color .blue:hover,.color .cred:hover,.color .corange:hover{
+    color:#fff;
+    background-color:#000;
+}
+.divwidth li,.divheight li{
+    background-color:#000;
+}
+.divwidth li:hover,.divheight li:hover{
+    background-color:#fff;
+    color:#000;
+    font-weight:bolder;
+}
+#btn1,#btn2{
+   width:50px;
+   height:25px;
+   margin:10px 15px 10px 20px;
+   background-color:#000;
+   color:#fff;
+   border:1px;
+   border-radius:3px;
+}
+#btn1:hover,#btn2:hover{
+   background-color:#fff;
+   color:#000;
+   font-weight:bolder;
+}
