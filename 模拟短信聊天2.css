@@ -1,0 +1,53 @@
+/* 
+* @Author: Marte
+* @Date:   2016-09-07 20:52:46
+* @Last Modified by:   Marte
+* @Last Modified time: 2016-09-26 19:48:01
+*/
+#message{
+    width:200px;
+    height:600px;
+    margin:0 auto;
+    position: relative;
+}
+#text1{
+    width:182px;
+    height:284px;
+    position: absolute;
+    top:48px;
+    left:14px;
+    border:1px solid #eee;
+}
+#tou{
+    position: absolute;
+    top:338px;
+    left:10px;
+}
+#text2{
+    position: absolute;
+    width:120px;
+    height:36px;
+    top:334px;
+    left:40px;
+}
+#button{
+    position: absolute;
+    width:33px;
+    left:165px;
+    top:334px;
+    text-align:center; 
+    line-height:42px; 
+    height:42px; 
+    margin:0px; 
+    padding:0px; 
+    border:0px;
+    font-size:14px;
+    color:#aaa;
+}
+#button:hover{
+    background-color:#000;
+    color:#eee;
+    font-weight:bolder;
+    border-radius:2px;
+    font-size:12px;
+}
