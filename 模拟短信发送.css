@@ -1,0 +1,30 @@
+/* 
+* @Author: Marte
+* @Date:   2016-09-07 20:52:46
+* @Last Modified by:   Marte
+* @Last Modified time: 2016-09-26 10:45:34
+*/
+#message{
+    width:200px;
+    height:400px;
+    margin-left:50px;
+    border:1px solid #aaa;
+    font-size:14px;
+    font-weight:bold;
+}
+#sent{
+    margin-left:15px;
+    position: relative;
+}
+#enter{
+    width:197px;
+    height:25px;
+    background-color:#ccc;
+}
+#button{
+    position: absolute;
+    top:3px;
+}
+span{
+    color:#aaa;
+}
