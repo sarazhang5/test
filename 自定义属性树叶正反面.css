@@ -1,0 +1,21 @@
+/* 
+* @Author: Marte
+* @Date:   2016-09-07 20:52:46
+* @Last Modified by:   Marte
+* @Last Modified time: 2016-09-27 16:37:46
+*/
+li{
+    background:url(img/ye1.png) no-repeat; 
+    width:250px;
+    height:250px;
+    float:left;
+    list-style:none;
+}
+p{
+    clear:both;
+    color:#333;
+    background:#F1F1F1;
+    width:240px;
+    padding:20px;
+    letter-spacing:2px;
+}

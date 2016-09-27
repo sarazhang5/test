@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+</head>
+<style type="text/css">
+    #mh{
+        position: relative;
+        width:535px;
+        border:2px solid #000;
+    }
+    p{
+        position: absolute;
+        left:400px;
+        top:0;
+        color:#fff;
+        font-weight:bolder;
+        padding:10px;
+        border-radius:5px;
+        background-color:#000;
+    }
+</style>
+<script type="text/javascript">
+    window.onload=function(){
+       oDiv=document.getElementById('mh');
+       oImg=document.getElementsByTagName('img')[0];
+       oP=document.getElementsByTagName('p')[0];
+       var oldStyle=null;
+       oDiv.onmouseover=function(){
+        oldStyle=oP.style;
+        oImg.src='img/4.jpg';
+        oP.innerHTML="领导辛苦了";
+        oP.style.backgroundColor="#fff";
+        oP.style.color="#000";
+       }
+       oDiv.onmouseout=function(){
+        oP.style=oldStyle;
+        oImg.src='img/3.jpg';
+        oP.innerHTML="领导好";
+       }
+    }
+</script>
+<body>
+    <div id="mh">
+    <b><img src="img/3.jpg" alt="图片" /></b>
+    <p id="ap">领导好</p>
+    </div>
+</body>
+</html>
