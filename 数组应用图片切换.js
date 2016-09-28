@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2016-09-07 20:55:50
 * @Last Modified by:   Marte
-* @Last Modified time: 2016-09-27 19:47:30
+* @Last Modified time: 2016-09-27 19:55:41
 */
 //留言
 //ie8不能运行，火狐浏览器向下有问题，谷歌浏览器正常
@@ -33,7 +33,8 @@ window.onload=function(){
         num--;
       if(num==-1){
         num=arrText.length-1;
-      }
+      };
+      alert(num);
         fnTable();
     }
 }
