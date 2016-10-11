@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>实例目录</title>
+        <link rel="stylesheet" type="text/css" href="ajax的open方法及分析.css" />
+        <script type="text/javascript" src="ajax的open方法及分析.js"></script>
+    </head>
+    <body>
+        <h2>get和post分析</h2>
+        <h3>get</h3>
+        <p>1.get提交时，把数据和值用=连接起来，如果多个键值对用&连接，放在url后面</p> 
+        <p>2.url限制的原因，后面存放的数据不能太多</p> 
+        <p>3.用户输入的数据会出现在地址栏，会产生缓存</p> 
+        <p>4.get传递的数据只能是字符串类型，不能是其他类型的值</p> 
+        <h3>post</h3>
+        <p>1.enctype:提交的数据格式.默认application/x-www-form-urlencoded</p>
+        <p>2.理论上传递数据的数量无限制</p>
+        <p>3.传递的数据格式多样</p>
+        <h2>open的三个参数</h2>
+        <p>xhr.open('get','1.txt',true)</p>
+        <p>打开方式，地址，是否异步</p>
+        <p>异步（true）：非堵塞；同步（false）：堵塞</p>
+        <p>同步的表现就是前面没有执行完后面的要排队执行，异步就是前面的没有执行完后面的也可以执行，在ajax中一般很少用同步，因为我们平常写的代码就是同步的，不用再ajax中实现</p>
+    </body>
+</html>
