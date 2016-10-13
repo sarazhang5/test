@@ -1,0 +1,13 @@
+/* 
+* @Author: Marte
+* @Date:   2016-10-11 21:36:18
+* @Last Modified by:   Marte
+* @Last Modified time: 2016-10-13 19:09:04
+*/
+div{
+    width:300px;
+    margin:0 auto;
+    font-size:14px;
+    background-color:#eee;
+    border:2px solid #ccc;
+}
