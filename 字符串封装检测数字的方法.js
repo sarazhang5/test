@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2016-09-07 20:55:50
 * @Last Modified by:   Marte
-* @Last Modified time: 2016-10-12 14:33:24
+* @Last Modified time: 2016-10-12 14:38:54
 */
 window.onload=function(){
 var aInput=document.getElementsByTagName('input');
@@ -18,7 +18,7 @@ function testFn(str){
   var n=0;
   for(var i=0;i<str.length;i++){
     n=str.charCodeAt(i);
-    if(n<48||n>96) return false;
+    if(n<48||n>57) return false;
   }
   return true;
 }
