@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>实例目录</title>
+        <link rel="stylesheet" type="text/css" href="ajax的跨域请求.css" />
+        <script type="text/javascript">
+         function fn(data){
+           alert(data);
+        }
+        </script>
+        <script type="text/javascript" src="ajax的跨域请求.js"></script>
+    </head>
+    <body>
+    <div>
+        jsonp:json width padding;(json的使用模式，解决跨域数据访问)。<br/>
+        1.script不受同源限制的问题。<br/>
+        1.1.在资源加载进来之前定义好一个函数，这个函数接受一个参数（数据），函数里面利用这个参数做一些事情。
+        然后需要的时候通过script标签加载对应远成文件资源，当远程的文件资源被夹在进来的时候，就会去执行我们前面定义好的函数，并且把数据当做这个函数的参数传入进去。<br/>
+        2.用script模拟跨域。<br/>
+    </div>
+
+    <input id="button" type="button" value="2弹出后台数据" />
+    </body>
+</html>

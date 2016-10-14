@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>实例目录</title>
+        <link rel="stylesheet" type="text/css" href="cookie知识及封装.css" />
+        <script type="text/javascript" src="cookie知识及封装.js"></script>
+    </head>
+    <body>
+         <div>
+             cookie是存在客户端上的，用户可见。<br/>
+             1.cookie的作用：页面中信息的保存比如：自动登录记住用户名。<br/>
+             2.cookie的特性：同一个网站中所有页面共享一套cookie。<br/>
+               数量大小有限。<br/>
+               有过期时间<br/>
+            3.使用cookie<br/>
+              document.cookie<br/>
+            4.火狐浏览器可在本地查看cookie（在选项-隐私中可查看）。<br/>
+            5.设置过期时间，需要var oDate=new Date();oDate.setDate(oDate.getDate()+30);<br/>
+            6.做这个例子中间出了一个问题花了很多时间解决，问题是：在写获取getCookie函数时分割cookie没有仔细检查浏览器怎么表现的。浏览器
+            分割cookie用;+空格；
+
+         </div>
+    </body>
+</html>
