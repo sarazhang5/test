@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>实例目录</title>
+        <link rel="stylesheet" type="text/css" href="js中的作用域.css" />
+        <script type="text/javascript" src="js中的作用域.js"></script>
+    </head>
+    <body>
+        <div>
+          <p>作用域：域-空间，范围，区域。作用-读，写。</p>
+          <p>js解析器</p>
+          <p>浏览器1.找一些东西：var function 参数<br/>
+                        a=未定义  所有的变量，在正式运行代码之前，都提前赋了一个值:未定义<br/>
+                        fn1=function fn1(){alert(2);}<br/>
+                        所有的函数，在正式运行代码之前，都是整个函数块。<br/>
+                        遇到重名的：只留下一个，只留下函数。去掉未命名的。
+                        如果函数重名，留下最后一个<br/>
+                      <em>上面一步叫做js的预解析</em>
+                   2.逐行解读代码：<br/></p>
+                     表达式：=+—*/%++!参数（能改变值）<br/>
+                     表达式可以修改预解析的值。<br/>
+                     函数声明不能改变表达式<br/>
+        </div>
+        <div>
+            <p>5解析过程</p>
+            <p>
+                1.预解析：var function 参数；<br/>
+                a=未定义。。。<br/>
+                 function fn1(){<br/>
+                 alert(a);<br/>
+                 var a=2;<br/>
+                 }<br/>
+                2.逐行读代码：<br/>
+                a=1;<br/>
+                   函数预解析：<br/>
+                     a=未定义。。<br/>
+                   逐行读代码：<br/>
+                   弹出a:undefined;<br/>
+                   a=2<br/>
+                弹出1<br/>
+            </p>
+            <p>6解析过程</p>
+            <p>
+                1.预解析：var function 参数<br/>
+                a=未定义<br/>
+                function fn1(){<br/>
+                alert(a);<br/>
+                a=2;<br/>
+                }<br/>
+                2.逐行读代码：<br/>
+                a=1<br/>
+                     函数预解析：<br/>
+
+                     逐行读代码：<br/>
+                     弹出a之前函数内没有a，根据作用域链向上找，找到a=1;<br/>
+                     弹出a=1;<br/>
+                     表达式a=2，根据作用域链子域可以改变父域;<br/>
+                a=2<br/>
+                弹出a=2;<br/>
+            </p>
+            <p>7解析过程(带参数)</p>
+            <p>
+                1.预解析：var function 参数<br/>
+                a=未定义<br/>
+                function fn1(){<br/>
+                alert(a);<br/>
+                a=2;<br/>
+                }<br/>
+                2.逐行读代码：<br/>
+                a=1<br/>
+                函数调用<br/>
+                     函数预解析：<br/>
+                        参数相当于变量 var a=未定义。。；
+                     逐行读代码：<br/>
+                        弹出 a=undefined;<br/>
+                        a=2;(局部因为函数内有var声明)<br/>
+                弹出a=1;<br/>
+            </p>
+        </div>
+    </body>
+</html>
