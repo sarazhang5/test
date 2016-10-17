@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>实例目录</title> 
+    </head>
+    <body> 
+        <div>
+            <h2>改成工厂方式:封装函数简写</h2>
+            <p>
+                function createPerson(key){<br/>
+                this.name=name;<br/>
+                this.showName=function(){<br/>
+                alert(this.name);<br/>
+                }<br/>
+                }<br/>
+                var p1=new CreatePerson('小明');<br/>
+                p1.showName();<br/>
+                var p2=new CreatePerson('小明').showName();<br/>
+                p2.showName();<br/>
+                <span>当new去调用一个函数：这时候函数中的this就是创建出来的对象，而且函数的返回值直接就是this啦（隐式返回）</span><br/>
+                <span>new后面调用的函数：叫做构造函数</span>
+            </p>
+        </div>
+    </body>
+</html>

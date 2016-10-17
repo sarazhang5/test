@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2016-09-07 20:55:50
 * @Last Modified by:   Marte
-* @Last Modified time: 2016-10-17 09:56:22
+* @Last Modified time: 2016-10-17 10:37:23
 */
 
 window.onload=function(){
@@ -47,14 +47,21 @@ window.onload=function(){
   fn1();
   alert(a)//2 */
     //7
-  var a=1;
+  /*var a=1;
   function fn1(a){
     alert(a);
      a=2;
   }
   fn1();
+  alert(a)*/
+     //8
+ var a=1;
+  function fn1(a){
+    alert(a);
+     a=2;
+  }
+  fn1(a);
   alert(a)
-
 
 }
     

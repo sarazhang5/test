@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>实例目录</title> 
+        <script type="text/javascript" src="面向对象的对象引用.js" ></script>
+    </head>
+    <body> 
+        <div>
+            <h2>改成工厂方式:封装函数简写</h2>
+            <p>
+                function createPerson(key){<br/>
+                this.name=name;<br/>
+                this.showName=function(){<br/>
+                alert(this.name);<br/>
+                }<br/>
+                }<br/>
+                var p1=new CreatePerson('小明');<br/>
+                p1.showName();<br/>
+                var p2=new CreatePerson('小明').showName();<br/>
+                p2.showName();<br/>
+                alert(p1.showName()==p2.showName());false 原因？
+            </p>
+        </div>
+    </body>
+</html>
